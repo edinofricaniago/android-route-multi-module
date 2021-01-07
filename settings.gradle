@@ -1,0 +1,6 @@
+include ':libs:common'
+include ':features:home'
+include ':features:splash'
+include ':routing'
+include ':app'
+rootProject.name = "Base"

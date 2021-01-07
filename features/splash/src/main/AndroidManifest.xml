@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tukangbasic.splash">
+
+    <application>
+        <activity android:name=".SplashActivity" />
+
+        <provider
+            android:authorities="${applicationId}.splash.RouteProvider"
+            android:name=".RouteProvider"/>
+
+        <provider
+            android:authorities="${applicationId}.splash.DependenciesProvider"
+            android:name=".DependenciesProvider"/>
+    </application>
+
+</manifest>
