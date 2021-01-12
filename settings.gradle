@@ -1,3 +1,5 @@
+include ':libs:network'
+include ':libs:res'
 include ':libs:common'
 include ':features:home'
 include ':features:splash'
